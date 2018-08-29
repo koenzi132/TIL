@@ -28,16 +28,14 @@
 
 *( 사진 출처 - 생활코딩 )*
 
-	<img width="1204" alt="2018-08-29 7 07 21" src="https://user-images.githubusercontent.com/39458555/44781814-51d84a80-abc0-11e8-8d49-ccbd3d04bd1f.png">
-
-
-
 * **표 (table)** - 정보는 결국은 표에 저장이 된다.
 * **데이터베이스 (database)** === **<u>스키마 (scheme)</u>**
   * 폴더의 기능과 같이, <u>서로 연관된 표들을 그룹핑</u> 해서 연관되지 않은 표들과 분리함.
 * **데이터베이스 서버 (database server)** - 스키마들을 담고 있는 상위 폴더같은 존재.
 
 (MySQL을 설치한 것은 데이터베이스 서버를 설치한 것임.)
+
+<img width="1204" alt="mysql" src="https://user-images.githubusercontent.com/39458555/44781926-95cb4f80-abc0-11e8-982c-aea6bc3239fc.png">
 
 ----------
 
