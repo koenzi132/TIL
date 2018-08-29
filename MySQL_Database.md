@@ -28,7 +28,9 @@
 
 *( 사진 출처 - 생활코딩 )*
 
-	<img width="1204" alt="2018-08-29 7 07 21" src="https://user-images.githubusercontent.com/39458555/44781259-df1a9f80-abbe-11e8-9d28-9b70a49f02b5.png">
+	<img width="1204" alt="2018-08-29 7 07 21" src="https://user-images.githubusercontent.com/39458555/44781814-51d84a80-abc0-11e8-8d49-ccbd3d04bd1f.png">
+
+
 
 * **표 (table)** - 정보는 결국은 표에 저장이 된다.
 * **데이터베이스 (database)** === **<u>스키마 (scheme)</u>**
