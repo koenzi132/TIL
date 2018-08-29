@@ -26,7 +26,9 @@
 
 ##### MySQL의 구조
 
-	*( 사진 출처 - 생활코딩 )*	<img width="1204" alt="2018-08-29 7 07 21" src="https://user-images.githubusercontent.com/39458555/44781259-df1a9f80-abbe-11e8-9d28-9b70a49f02b5.png">
+	*( 사진 출처 - 생활코딩 )*
+
+	<img width="1204" alt="2018-08-29 7 07 21" src="https://user-images.githubusercontent.com/39458555/44781259-df1a9f80-abbe-11e8-9d28-9b70a49f02b5.png">
 
 * **표 (table)** - 정보는 결국은 표에 저장이 된다.
 * **데이터베이스 (database)** === **<u>스키마 (scheme)</u>**
