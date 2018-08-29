@@ -5,7 +5,7 @@
 * <u>**관계형 데이터베이스 (relational DBMS)**</u>.
 
   * 데이터를 <u>**표의 형태**</u>로 정리정돈 가능. (스프레드 시트처럼.. )
-    *( 사진 출처 - 생활코딩 )*
+    *( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19531)*
 
     <img width="692" alt="2018-08-29 6 33 14" src="https://user-images.githubusercontent.com/39458555/44779297-1cc8f980-abba-11e8-9b8f-65a09c2dcce0.png">
 
@@ -26,7 +26,7 @@
 
 <img width="1204" alt="mysql" src="https://user-images.githubusercontent.com/39458555/44781926-95cb4f80-abc0-11e8-982c-aea6bc3239fc.png">
 
-*( 사진 출처 - 생활코딩 )*
+*( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19533)*
 
 ----------
 
@@ -56,5 +56,12 @@
 
 <img width="400" alt="2018-08-29 9 40 43" src="https://user-images.githubusercontent.com/39458555/44788149-3b3bee80-abd4-11e8-8472-025eda942904.png">
 
-*( 사진 출처 : 생활코딩 )*
+<img width="400" alt="2018-08-29 9 52 12" src="https://user-images.githubusercontent.com/39458555/44788748-d1244900-abd5-11e8-9417-72df6b8d8aaa.png">
+
+( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19536 )*
+
+* 데이터베이스(스키마)에서 row(행)는 데이터 하나 하나를 의미하고, column(열)은 데이터 의 타입을 의미한다. 
+  * 위 사진에서 row(행)는 2개이고, column(열)은 4개이다.
+
+------------
 
