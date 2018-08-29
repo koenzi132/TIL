@@ -13,20 +13,9 @@
 
   * (MySQL, Oracle, SQL server, PostgreSQL, DB2, Access 등..)
 
-----
-
-##### MySQL 실행방법 (터미널)
-
-* terminal 접속
-* cd /usr/local/mysql/bin/  타이핑
-* bin이 뜨면 - > ./mysql -uroot -p  를 타이핑 (uroot = root라는 유저 / p = password를 입력하겠다는 뜻)
-* password 입력 - > connected
-
 ----------
 
 ##### MySQL의 구조
-
-*( 사진 출처 - 생활코딩 )*
 
 * **표 (table)** - 정보는 결국은 표에 저장이 된다.
 * **데이터베이스 (database)** === **<u>스키마 (schema)</u>**
@@ -37,5 +26,35 @@
 
 <img width="1204" alt="mysql" src="https://user-images.githubusercontent.com/39458555/44781926-95cb4f80-abc0-11e8-982c-aea6bc3239fc.png">
 
+*( 사진 출처 - 생활코딩 )*
+
 ----------
+
+##### MySQL 서버 접속 방법 (터미널)
+
+- terminal 접속
+- cd /usr/local/mysql/bin/  타이핑
+- bin이 뜨면 - > ./mysql -uroot -p  를 타이핑 (uroot = root라는 유저(u) / p = password를 입력하겠다는 뜻) 
+  (일반적으로 root라는 유저는 관리자를 의미하므로, 모든 권한이 열려있다. 따라서, root를 직접적으로 데이터베이스를 다루는 것은 위험하기 때문에, 중요한 시스템이라면 별도의 사용자를 만들어서 평소에는 그 사용자로 작업하는 것을 추천한다.)
+- password 입력 - > connected
+
+---
+
+##### MySQL 스키마(schema) 사용 방법
+
+* CREATE DATABASE *databaseName*; ➢ 데이터베이스(스키마) 생성
+* DROP DATABASE *databaseName*; ➢ 데이터베이스(스키마) 삭제
+* 키보드 화살표 ↑를 누르면 이전에 썼던 명령어를 불러올 수 있음
+* SHOW DATABASES; ➢ 생성된 데이터베이스(스키마)를 확인
+* USE *databaseName*; ➢ 지금부터 내리는 명령이 databaseName이라는 데이터베이스(스키마)에 있는 표를 대상으로 내리는 명령이 되도록 함
+
+------------
+
+##### SQL과 테이블 구조
+
+> **SQL** (**S**tructured **Q**uery **L**anguage) : 데이터베이스를 구축하고 활용하기 위해 사용하는 언어. <u>관계형 데이터 모델</u>(Relational DBMS)로 표현되는 데이터베이스를 다루는 언어로 가장 널리 사용되고 있다. 
+
+<img width="400" alt="2018-08-29 9 40 43" src="https://user-images.githubusercontent.com/39458555/44788149-3b3bee80-abd4-11e8-8472-025eda942904.png">
+
+*( 사진 출처 : 생활코딩 )*
 
