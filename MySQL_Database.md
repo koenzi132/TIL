@@ -47,6 +47,7 @@
 * 키보드 화살표 ↑를 누르면 이전에 썼던 명령어를 불러올 수 있음
 * SHOW DATABASES; ➢ 생성된 데이터베이스(스키마)를 확인
 * USE *databaseName*; ➢ 지금부터 내리는 명령이 databaseName이라는 데이터베이스(스키마)에 있는 표를 대상으로 내리는 명령이 되도록 함
+* 패스워드 재설정 방법 : SET PASSWORD = PASSWORD('*yourPassword*');
 
 ------------
 
@@ -69,7 +70,8 @@
 
 ( google에서 **MySQL cheat sheet**를 찾아 이용하는 것도 좋은 방법이다. )
 ( 아래에 나오는 datatype도 검색해서 찾아서 이용한다. )
-( length의 경우 숫자를 얼마까지 노출시킬 것인가*(자리수)*를 나타내는 것이다. 보통 11을 이용.)
+( 참고하기 좋은 사이트 : https://www.techonthenet.com/mysql/datatypes.php )
+( length의 경우 글자수를 얼마까지 노출시킬 것인가를 나타내는 것이다. 보통 11을 이용.)
 
 * CREATE TABLE *tableName* (
   columnName datatype(length) <u>NOT NULL</u> <u>AUTO_INCREMENT</u>,
@@ -77,7 +79,18 @@
 
 이런 식으로...
 
-NOT NULL : 빈 값을 허용하지 않겠다는 선언.
+( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19537 )
 
-AUTO_INCREMENT : 자동으로 증가시킴 ( 예를 들면, id 라는 column이 숫자 1,2,3,4,, 이런식으로 되어있을 경우, 새로운 데이터가 들어올 때 해당 데이터의 id 값이 5로 바로 설정되게끔..)
+<img width="400" alt="2018-08-30 3 47 43" src="https://user-images.githubusercontent.com/39458555/44834405-14c99200-ac6c-11e8-91d5-4cddac16fb7f.png">
+
+**<u>NOT NULL</u>** : 빈 값을 허용하지 않겠다는 선언. ( → **<u>NULL</u>** 로 해주면, 값이 없는 것을 허용한다 라는 의미.)
+
+**<u>AUTO_INCREMENT</u>** : 자동으로 증가시킴 ( 예를 들면, id 라는 column이 숫자 1,2,3,4,, 이런식으로 되어있을 경우, 새로운 데이터가 들어올 때 해당 데이터의 id 값이 5로 바로 설정되게끔..)
+
+**<u>VARCHAR(size)</u>** (**datatype**): 입력된 값에서 정해진 size(글자수)만큼만 기록하고 나머지는 버려버리는 기능.
+
+**<u>PRIMARY KEY( )</u>** : 생성되는 테이블에 메인 column이 무엇인지 설정해 주는 것.
+(primary key는 성능적인 측면, **<u>중복을 방지</u>**하는 측면의 두 가지 측면에서 사용된다. = <u>"해당 column의 값들은 중요하니까 다른 column들과 달리 값이 중복되면 안돼!"</u> 해주는 것.)
+
+-----------
 
