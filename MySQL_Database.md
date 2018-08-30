@@ -65,3 +65,19 @@
 
 ------------
 
+##### MySQL 테이블 생성 (create table in MySQL)
+
+( google에서 **MySQL cheat sheet**를 찾아 이용하는 것도 좋은 방법이다. )
+( 아래에 나오는 datatype도 검색해서 찾아서 이용한다. )
+( length의 경우 숫자를 얼마까지 노출시킬 것인가*(자리수)*를 나타내는 것이다. 보통 11을 이용.)
+
+* CREATE TABLE *tableName* (
+  columnName datatype(length) <u>NOT NULL</u> <u>AUTO_INCREMENT</u>,
+  columnName datatype(length) )
+
+이런 식으로...
+
+NOT NULL : 빈 값을 허용하지 않겠다는 선언.
+
+AUTO_INCREMENT : 자동으로 증가시킴 ( 예를 들면, id 라는 column이 숫자 1,2,3,4,, 이런식으로 되어있을 경우, 새로운 데이터가 들어올 때 해당 데이터의 id 값이 5로 바로 설정되게끔..)
+
