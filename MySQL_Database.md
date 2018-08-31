@@ -107,13 +107,23 @@
 
 -------------
 
-##### SQL의 INSERT 구문
+##### SQL의 INSERT 구문 ( Create 부분 )
 
 <img width="488" alt="2018-08-31 5 19 00" src="https://user-images.githubusercontent.com/39458555/44901319-0188f600-ad42-11e8-95a2-255a59e5a826.png">
 
-♼ <u>**DESC *tableName***</u> 을 입력하면 현재 테이블에 대한 값이 나옴.
+♼ <u>**DESC *tableName***</u> : 현재 테이블에 대한 정보가 나옴.
 
 <img width="400" alt="2018-08-31 5 22 43" src="https://user-images.githubusercontent.com/39458555/44901489-7f4d0180-ad42-11e8-826d-8f78260b99fd.png">
 
+<img width="641" alt="2018-08-31 5 27 18" src="https://user-images.githubusercontent.com/39458555/44901718-229e1680-ad43-11e8-855d-a839ec897813.png">
+
+> 이런 식으로 데이터를 입력. VALUES 중에 NOW() 라는 것은, 입력하는 현재 날짜와 시간을 자동으로 채워주는 함수임. ( 여기서 id column은 값이 auto_increment로 되어 있기 때문에, 입력해주지 않아도 자동으로 증가하며 생성된다. )
+
+♼ **SELECT * FROM *tableName* (이건 Read 부분)** : 해당 테이블의 모습이 출력.
+
+<img width="450" alt="2018-08-31 5 30 37" src="https://user-images.githubusercontent.com/39458555/44901922-9a6c4100-ad43-11e8-8804-3333cabd1f07.png">
+
 ( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19539 )
+
+-----------
 
