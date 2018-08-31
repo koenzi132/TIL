@@ -111,7 +111,7 @@
 
 <img width="488" alt="2018-08-31 5 19 00" src="https://user-images.githubusercontent.com/39458555/44901319-0188f600-ad42-11e8-95a2-255a59e5a826.png">
 
-♼ <u>**DESC *tableName***</u> : 현재 테이블에 대한 정보가 나옴.
+* <u>**DESC *tableName***</u> : 현재 테이블에 대한 정보가 나옴.
 
 <img width="400" alt="2018-08-31 5 22 43" src="https://user-images.githubusercontent.com/39458555/44901489-7f4d0180-ad42-11e8-826d-8f78260b99fd.png">
 
@@ -119,11 +119,40 @@
 
 > 이런 식으로 데이터를 입력. VALUES 중에 NOW() 라는 것은, 입력하는 현재 날짜와 시간을 자동으로 채워주는 함수임. ( 여기서 id column은 값이 auto_increment로 되어 있기 때문에, 입력해주지 않아도 자동으로 증가하며 생성된다. )
 
-♼ **SELECT * FROM *tableName* (이건 Read 부분)** : 해당 테이블의 모습이 출력.
+* **SELECT * FROM *tableName* (이건 Read 부분이지만 맛보기로..)** : 해당 테이블의 모습이 출력.
 
 <img width="450" alt="2018-08-31 5 30 37" src="https://user-images.githubusercontent.com/39458555/44901922-9a6c4100-ad43-11e8-8804-3333cabd1f07.png">
 
 ( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19539 )
 
 -----------
+
+##### SQL의 SELECT 구문 ( Read 부분 )
+
+	♻︎ 구글링을 통해 필요한 건 찾아서 쓰자 ! (여기는 기본 설명만.) 
+	 mysql select syntax 검색하면 수많은 자료들이 나옴.
+
+* **SELECT * FROM *tableName*** : 모든 데이터를 화면에 출력하고 싶을 때
+
+  <img width="400" alt="2018-08-31 5 42 42" src="https://user-images.githubusercontent.com/39458555/44902561-52e6b480-ad45-11e8-94cd-dd777e6cff92.png">
+
+* **SELECT *column lists* FROM *tableName*** : 원하는 column들만 선택해서 출력
+
+  <img width="450" alt="2018-08-31 5 47 49" src="https://user-images.githubusercontent.com/39458555/44902851-02238b80-ad46-11e8-959c-e41a524b1df0.png">
+
+* **SELECT *[column lists]* FROM *tableName* <u>WHERE</u> author='egoing'**; 이라고 하면 아래와 같이 해당 column들과 author 값을 egoing으로 가지고 있는 데이터들만을 출력한다. 
+
+  <img width="450" alt="2018-08-31 5 53 28" src="https://user-images.githubusercontent.com/39458555/44903173-cd640400-ad46-11e8-8413-c89fb9418057.png">
+
+* **SELECT [*column lists*] FROM *tableName* WHERE author='egoing' <u>ORDER BY</u> *columnName* DESC(내림차순)/ASC(오름차순)** : 해당 column을 기준으로 내림차순/오름차순으로 정렬한다.
+
+  <img width="450" alt="2018-08-31 6 03 15" src="https://user-images.githubusercontent.com/39458555/44903680-2d0edf00-ad48-11e8-9047-466eedda726e.png">
+
+* 명령 끝에 **LIMIT *number*** 를 입력해주면 수많은 데이터들 중에 위에서부터 number 수 만큼의 데이터만을 출력한다. 
+
+( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19540 )
+
+-------
+
+##### SQL의 Update 구문
 
