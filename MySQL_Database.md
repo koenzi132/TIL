@@ -154,5 +154,32 @@
 
 -------
 
-##### SQL의 Update 구문
+##### SQL의 Update 구문 ( 수정 파트 )
+
+	♻︎ 자세한 건 mysql update sytax를 검색해보자.
+	(아래와 같이 공식문서에 나와 있으므로 참고하길. [ ] 안의 것들은 생략가능하다는 의미임.)
+
+<img width="500" alt="2018-08-31 6 15 03" src="https://user-images.githubusercontent.com/39458555/44904300-dacebd80-ad49-11e8-83d5-2fe546882991.png">
+
+* 다음과 같이 수정을 한다. 
+
+  <img width="500" alt="2018-08-31 6 18 39" src="https://user-images.githubusercontent.com/39458555/44904466-5c265000-ad4a-11e8-8091-962d3f985e66.png">
+
+  (**⚠︎⚠︎⚠︎ <u>WHERE</u>**로 값을 바꿀 column을 설정해주지 않으면 전체 값이 변하므로 **주의!**)
+
+----------
+
+##### SQL의 Delete 구문
+
+​	<img width="500" alt="2018-08-31 6 22 38" src="https://user-images.githubusercontent.com/39458555/44904687-e4a4f080-ad4a-11e8-8291-49f3581b5c12.png">
+
+**(⚠︎⚠︎⚠︎ 여기서도 <u>WHERE</u>문을 넣어주지 않으면 모든 데이터가 삭제되므로, 주의해야 한다 !)**
+
+* 다음과 같이 사용한다. ( 5번 행이 삭제된 걸 확인할 수 있음.)
+
+  <img width="500" alt="2018-08-31 6 25 30" src="https://user-images.githubusercontent.com/39458555/44904832-45ccc400-ad4b-11e8-8e15-745e72a16533.png">
+
+  ( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19542 )
+
+--------------
 
