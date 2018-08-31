@@ -107,3 +107,13 @@
 
 -------------
 
+##### SQL의 INSERT 구문
+
+<img width="488" alt="2018-08-31 5 19 00" src="https://user-images.githubusercontent.com/39458555/44901319-0188f600-ad42-11e8-95a2-255a59e5a826.png">
+
+♼ <u>**DESC *tableName***</u> 을 입력하면 현재 테이블에 대한 값이 나옴.
+
+<img width="400" alt="2018-08-31 5 22 43" src="https://user-images.githubusercontent.com/39458555/44901489-7f4d0180-ad42-11e8-826d-8f78260b99fd.png">
+
+( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19539 )
+
