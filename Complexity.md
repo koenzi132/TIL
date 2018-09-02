@@ -19,7 +19,7 @@
 ◎ **<u>Big-O notation</u>** : 대략적인 time complexity를 보여줌.
 
 	(정확한 값이 아닌 근사값으로 표현.)	
-
+	
 	<img width="911" alt="2018-08-24 4 40 16" src="https://user-images.githubusercontent.com/39458555/44571700-79907280-a7bc-11e8-8e91-295d0ca1a2cd.png">
 
 * constant가 time complexity가 가장 작으므로 run-time이 가장 짧음. (Good!!)
