@@ -171,7 +171,7 @@
 
 ##### SQL의 Delete 구문
 
-​	<img width="500" alt="2018-08-31 6 22 38" src="https://user-images.githubusercontent.com/39458555/44904687-e4a4f080-ad4a-11e8-8291-49f3581b5c12.png">
+	<img width="500" alt="2018-08-31 6 22 38" src="https://user-images.githubusercontent.com/39458555/44904687-e4a4f080-ad4a-11e8-8291-49f3581b5c12.png">
 
 ( ⚠︎⚠︎ 여기서도 **<u>WHERE</u>**문을 넣어주지 않으면 모든 데이터가 삭제되므로, **주의해야 한다** !)
 
@@ -181,5 +181,15 @@
 
   ( 사진 출처 : 생활코딩 - https://opentutorials.org/course/3161/19542 )
 
---------------
+--------
+
+------
+
+-----
+
+##### ❊ 테이블이름 변경하기
+
+<img width="450" alt="2018-09-02 4 37 05" src="https://user-images.githubusercontent.com/39458555/44953313-77ba6380-aece-11e8-84a3-fe2f195d3fb2.png">
+
+​	**RENAME TABLE** *tableName* **TO** *newTableName*
 
