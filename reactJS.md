@@ -25,6 +25,9 @@
     ( 데이터 ➣ 데이터 변경 ➣ UI 변경 )
   * 커뮤니티가 크다. Huge Library. 그리고 오픈소스이다.
 
+* **React**는 <u>UI library</u>이고, **ReactDOM**은 <u>React를 웹사이트에 출력(render)하는 걸 도와주는 모델</u>이다. 
+  * **ReactNative**는 모바일앱.
+
 
 
 ( 추후 업데이트 예정. )
