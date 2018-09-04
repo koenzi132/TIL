@@ -14,7 +14,16 @@
 
 * React library의 핵심은 Virtual DOM (가상 DOM)을 사용한다는 것이다.
 
-
+* **React 장점** 
+  * React는 javascript이다. 별도의 다른 언어를 배우지 않아도 된다. 
+  * Composition (구성) 요소별로 나누어 효율적인 작업을 할 수 있도록 도와준다.
+    (Header, Main, Footer 등 각각 나누어서 작업이 가능)
+  * React는 단방향(unidirectional) dataflow를 가지고 있다. 
+    (데이터는 항상 일정한 장소에 위치해 있고, 그 장소에서만 변경할 수 있다. 
+    상태가 변했을 경우, 데이터는 그대로 있고, UI가 업데이트 되는 것이다.)
+    ( <u>**데이터가 UI를 변경시키는 것임**</u>. / **UI가 데이터를 변경시키지 않는다**.)
+    ( 데이터 ➣ 데이터 변경 ➣ UI 변경 )
+  * 커뮤니티가 크다. Huge Library. 그리고 오픈소스이다.
 
 
 
