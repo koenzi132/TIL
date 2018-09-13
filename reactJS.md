@@ -6,6 +6,8 @@
 * React는 복잡한 상태변화를 잘 관리할 수 있게 해주는 상태시스템이다. (State Machine)
   * MVC Framework가 아님. MVC에서 V(view)를 담당한다 할 수 있음.
   * React는 가상 DOM을 이용해 DOM을 읽지 않고 갱신할 수 있는 강력한 렌더링 시스템을 가지고 있음.
+* React는 **<u>UI library</u>**이고, **ReactDOM**은 <u>React를 웹사이트에 출력(render)하는 걸 도와주는 모델</u>이다. 
+  - **ReactNative**는 모바일앱.
 
 ---
 
@@ -23,7 +25,20 @@
 
 ---
 
-* React는 **<u>UI library</u>**이고, **ReactDOM**은 <u>React를 웹사이트에 출력(render)하는 걸 도와주는 모델</u>이다. 
-  * **ReactNative**는 모바일앱.
+* React 작업환경 설정
 
+  *  Node.js / NPM 설치해야 함.
+  * babel, webpack, webpack-dev-server 설치해야 함.
+    * (npm install -g babel webpack webpack-dev-server )
+  * Nodes.js 프로젝트를 생성 (npm init) (원하는 폴더로 이동해서 할 것.)
+    * npm init은 현재 위치에 package.json 파일을 생성한다. (json파일 안에 패키지 관리를 하기 위한 내용들이 모두 들어있음.)
+      * 보통 package.json 파일을 설치한 뒤, 의존 패키지들을 설치한다. 
+        (의존 패키지란, 패키지 파일을 이용하기 위해 필요한 기능을 가진 하위 패키지를 일컬음.)
+  * 의존 패키지 및 플러그인 설치
+    * npm install --save react react-dom
+    * npm install -- save-dev babel-core babel-loader babel-preset-react babel-preset-es2015 webpack webpack-dev-server
+
+  (--save 는, 의존 패키지의 정보를 자동으로 package.json 파일에 적용하겠다는 것임. )
+
+---
 
