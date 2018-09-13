@@ -37,6 +37,7 @@
   * 의존 패키지 및 플러그인 설치
     * npm install --save react react-dom
     * npm install -- save-dev babel-core babel-loader babel-preset-react babel-preset-es2015 webpack webpack-dev-server
+      ( + react-hot-loader)
 
   (--save 는, 의존 패키지의 정보를 자동으로 package.json 파일에 적용하겠다는 것임. )
 
