@@ -1,6 +1,15 @@
 ## React.js
 
 * React.js는 User Interface를 만들기 위한 javascript library이다. ( Framework가 아님 )
+* Facebook에서 개발한, UI(유저인터페이스)에 집중하는 Library.
+* 자바스크립트와는 다르게 **<u>JSX문법</u>**을 많이 사용한다.
+* React는 복잡한 상태변화를 잘 관리할 수 있게 해주는 상태시스템이다. (State Machine)
+  * MVC Framework가 아님. MVC에서 V(view)를 담당한다 할 수 있음.
+  * React는 가상 DOM을 이용해 DOM을 읽지 않고 갱신할 수 있는 강력한 렌더링 시스템을 가지고 있음.
+
+---
+
+
 
 > <u>**Library (라이브러리)**와 **Framework (프래임워크)** ?</u>
 >
@@ -12,22 +21,9 @@
 >
 >   **Framework**는 ∙∙∙ 우리가 만들고자 하는 것이 있을 때, 그것이 무엇이냐에 따라서( 게임, 웹, 채팅 등 ) 그것을 만들고자 할 때 공통적으로 필요한 부분이 있을 것이고, 우리의 기획 의도에 따라 달라지는 부분이 존재하는데, 공통적인 부분을 framework이 만들어 놓고, 기능이나 개성에 따라 달라지는 것을 우리가 손보는 형식으로 작업할 때 사용한다. 우리가 만들고자 하는 것을 처음부터 끝까지 만들지 않도록 하는, 반제품과 같은 것이 framework이다. 
 
-* React library의 핵심은 Virtual DOM (가상 DOM)을 사용한다는 것이다.
+---
 
-* **React 장점** 
-  * React는 javascript이다. 별도의 다른 언어를 배우지 않아도 된다. 
-  * Composition (구성) 요소별로 나누어 효율적인 작업을 할 수 있도록 도와준다.
-    (Header, Main, Footer 등 각각 나누어서 작업이 가능)
-  * React는 단방향(unidirectional) dataflow를 가지고 있다. 
-    (데이터는 항상 일정한 장소에 위치해 있고, 그 장소에서만 변경할 수 있다. 
-    상태가 변했을 경우, 데이터는 그대로 있고, UI가 업데이트 되는 것이다.)
-    ( <u>**데이터가 UI를 변경시키는 것임**</u>. / **UI가 데이터를 변경시키지 않는다**.)
-    ( 데이터 ➣ 데이터 변경 ➣ UI 변경 )
-  * 커뮤니티가 크다. Huge Library. 그리고 오픈소스이다.
-
-* **React**는 <u>UI library</u>이고, **ReactDOM**은 <u>React를 웹사이트에 출력(render)하는 걸 도와주는 모델</u>이다. 
+* React는 **<u>UI library</u>**이고, **ReactDOM**은 <u>React를 웹사이트에 출력(render)하는 걸 도와주는 모델</u>이다. 
   * **ReactNative**는 모바일앱.
 
 
-
-( 추후 업데이트 예정. )
