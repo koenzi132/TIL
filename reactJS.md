@@ -48,8 +48,25 @@
 ### JSX를 공부해보자.
 
 * **<u>render</u>**는 기본적으로 두 개의 prarameter를 갖는다.
-  * ReactDOM.render( 
-    < h1 > Hi React < h1 >,  ---> 보여주고픈 것 ( 첫 번째 parameter )
-    document.body ) ---> 보여줄 위치 ( 두 번째 prarameter )
+
+  * ```react
+    ReactDOM.render( 
+    <h1> Hi React <h1>, ---> 보여주고픈 것 ( 첫 번째 parameter )
+    document.body ); ---> 보여줄 위치 ( 두 번째 prarameter )
+    ```
+
     * 결과 : html body에 'Hi React'가 뜸.
+
+  * 위의 내용은 사실상 아래와 같음.
+
+  * ```react
+    ReactDOM.render( React.createElement(
+    "hi",
+    null,
+    "Hi React"
+    ),
+    document.body
+    );
+    ```
+
 
