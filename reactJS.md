@@ -41,5 +41,15 @@
 
   (--save 는, 의존 패키지의 정보를 자동으로 package.json 파일에 적용하겠다는 것임. )
 
+  (babel은 JSX문법을 javascript로 변환해서, 브라우저가 알아듣게 하는 역할을 함.)
+
 ---
+
+### JSX를 공부해보자.
+
+* **<u>render</u>**는 기본적으로 두 개의 prarameter를 갖는다.
+  * ReactDOM.render( 
+    < h1 > Hi React < h1 >,  ---> 보여주고픈 것 ( 첫 번째 parameter )
+    document.body ) ---> 보여줄 위치 ( 두 번째 prarameter )
+    * 결과 : html body에 'Hi React'가 뜸.
 
