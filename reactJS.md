@@ -47,7 +47,7 @@
 
 ### JSX를 공부해보자.
 
-* **<u>render</u>**는 기본적으로 두 개의 prarameter를 갖는다.
+* ReactDOM의 **<u>render</u>**는 기본적으로 두 개의 prarameter를 갖는다.
 
   * ```react
     ReactDOM.render( 
