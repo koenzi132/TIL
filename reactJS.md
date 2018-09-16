@@ -89,13 +89,17 @@
 
   <img width="350" alt="2018-09-16 3 15 57" src="https://user-images.githubusercontent.com/39458555/45593538-9edf5d80-b9c3-11e8-8aca-4a30adfa3928.png">
 
-
+---
 
 ##### 기본적인 Component 형식
+
+* 보통 Component의 경우 변수 선언시 **<u>맨 앞글자를 대문자</u>**로 표기한다.
 
 <img width="350" alt="2018-09-16 2 50 25" src="https://user-images.githubusercontent.com/39458555/45593355-e2d06380-b9bf-11e8-81b9-4f0cb8444136.png">
 
 * children은 해당 this의 자식을 소환할 때. (ex - div 안의 텍스트, div 안의 div ...)
+
+---
 
 ##### Virtual DOM에 뿌리는 방법 ( 리엑트DOM )
 
