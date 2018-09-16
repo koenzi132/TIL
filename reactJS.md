@@ -69,11 +69,35 @@
     );
     ```
 
+* JSX에서 class는 className으로 사용한다. 
+  * class="A" (x) - > className="A" (o)
+* React에서는, css 파일을 따로 만들어서 처리하는 경우가 별로 없고, Component 안에서  inline 방식으로 사용한다.
+  * 이런 식으로 ... render 안에 object 변수로 선언해줌.
+    <img width="300" alt="2018-09-16 3 01 43" src="https://user-images.githubusercontent.com/39458555/45593427-76566400-b9c1-11e8-9095-e30a150161c2.png">
+    * (숫자값인 경우, px등과 같은 기호는 사용하지 않고 숫자만;
+      문자값인 경우, "" 안에 넣어줄 것.)
+    * css에서처럼 background-color로 표기하지 않고,
+      backgroundColor와 같이 Camel case로 표기해서 사용.
+      (컬러를 위의 ffde00와 같은 특정 값으로 해주고 싶을 때는 앞에 #를 붙여 쓴다. ""#ffde00"  /// 일반적으론 "white" 와 같이 사용.)
+  * 이러한 css를 적용시키기 위해서는,
+    return에 이렇게 적용하면 된다.  ( style={선언된 변수} )
+    <img width="300" alt="2018-09-16 3 06 21" src="https://user-images.githubusercontent.com/39458555/45593476-52475280-b9c2-11e8-82b1-4fcfcf1ea3ff.png">
+
+* 만약 각각에 다른 효과를 주고 싶으면 아래와 같이 사용하면 된다.
+
+  <img width="350" alt="2018-09-16 3 16 13" src="https://user-images.githubusercontent.com/39458555/45593529-90914180-b9c3-11e8-89b9-8e4da8b76841.png">
+
+  <img width="350" alt="2018-09-16 3 15 57" src="https://user-images.githubusercontent.com/39458555/45593538-9edf5d80-b9c3-11e8-8aca-4a30adfa3928.png">
+
+
+
 ##### 기본적인 Component 형식
 
-<img width="450" alt="2018-09-16 2 45 03" src="https://user-images.githubusercontent.com/39458555/45593328-270f3400-b9bf-11e8-9f2e-125d759a61ee.png">
+<img width="350" alt="2018-09-16 2 50 25" src="https://user-images.githubusercontent.com/39458555/45593355-e2d06380-b9bf-11e8-81b9-4f0cb8444136.png">
+
+* children은 해당 this의 자식을 소환할 때. (ex - div 안의 텍스트, div 안의 div ...)
 
 ##### Virtual DOM에 뿌리는 방법 ( 리엑트DOM )
 
-<img width="450" alt="2018-09-16 2 47 14" src="https://user-images.githubusercontent.com/39458555/45593339-6ccbfc80-b9bf-11e8-9002-bafcc01ac731.png">
+<img width="350" alt="2018-09-16 2 47 14" src="https://user-images.githubusercontent.com/39458555/45593339-6ccbfc80-b9bf-11e8-9002-bafcc01ac731.png">
 
