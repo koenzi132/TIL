@@ -69,3 +69,11 @@
     );
     ```
 
+##### 기본적인 Component 형식
+
+<img width="450" alt="2018-09-16 2 45 03" src="https://user-images.githubusercontent.com/39458555/45593328-270f3400-b9bf-11e8-9f2e-125d759a61ee.png">
+
+##### Virtual DOM에 뿌리는 방법 ( 리엑트DOM )
+
+<img width="450" alt="2018-09-16 2 47 14" src="https://user-images.githubusercontent.com/39458555/45593339-6ccbfc80-b9bf-11e8-9002-bafcc01ac731.png">
+
