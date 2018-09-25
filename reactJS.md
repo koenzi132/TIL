@@ -70,6 +70,7 @@
     ```
 
 * JSX에서 class는 className으로 사용한다. 
+
   * class="A" (x) - > className="A" (o)
 * React에서는, css 파일을 따로 만들어서 처리하는 경우가 별로 없고, Component 안에서  inline 방식으로 사용한다.
   * 이런 식으로 ... render 안에 object 변수로 선언해줌.
@@ -104,4 +105,6 @@
 ##### Virtual DOM에 뿌리는 방법 ( 리엑트DOM )
 
 <img width="350" alt="2018-09-16 2 47 14" src="https://user-images.githubusercontent.com/39458555/45593339-6ccbfc80-b9bf-11e8-9002-bafcc01ac731.png">
+
+---
 
