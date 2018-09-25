@@ -1,3 +1,5 @@
+
+
 ## React.js
 
 * React.js는 User Interface를 만들기 위한 javascript library이다. ( Framework가 아님 )
@@ -116,3 +118,56 @@
 
 ---
 
+* **getInitialState**  : 컴포넌트가 실행되기 전 초기 상태를 나타냄.
+
+![2018-09-25 1 48 31](https://user-images.githubusercontent.com/39458555/45993433-ed7aaf00-c0c9-11e8-9c89-d8a6cd7953b7.png)
+
+---
+
+* JSX event 설정 방법
+
+![2018-09-25 3 37 32](https://user-images.githubusercontent.com/39458555/45996946-fa52cf00-c0d8-11e8-8f64-70113ba2019c.png)
+
+이런 식으로 해당 태그 안에 이벤트를 설정한다. render와 마찬가지로 countPlus, countMinus와 같은 함수를 설정 한 다음에. (함수의 인자(e라든지..)를 넣어주어야 함. 그래야 발생된 이벤트가 넘어옴.)
+
+![2018-09-25 3 39 06](https://user-images.githubusercontent.com/39458555/45997003-2a01d700-c0d9-11e8-9ea7-10effd1a555f.png)
+
+---
+
+* **JSX에서 넘어온 이벤트 타입은 <u>Synthetic Event 타입</u>이다.**
+
+  ![2018-09-25 4 28 59](https://user-images.githubusercontent.com/39458555/45999267-232a9280-c0e0-11e8-8497-9f1e40b61991.png)
+
+  위의 예문의 if문을 살펴보면, 
+
+  e.shiftKey 는 shift키를 누르고 해당 이벤트(마우스 클릭이나 키보드 동작 등)를 시행했을 때에 작동하게 하는 것이다. 
+
+---
+
+* **Component는 직접 리스닝을 할 수 없다.** 
+
+![2018-09-25 4 40 48](https://user-images.githubusercontent.com/39458555/45999831-ca5bf980-c0e1-11e8-86c6-622b30f80006.png)
+
+이런식으로 컴포넌트 안에 버튼을 만들고 그 버튼에 이벤트를 걸어줄 경우, 작동이 되지 않는다.
+
+<u>컴포넌트는 DOM을 감싸고 있는 존재이기 때문</u>**(Dom wrapper)**. 
+
+버튼을 감싸고 있는 존재일 뿐이라 DOM에 걸린 이벤트를 받을 순 없다. (이벤트를 리스닝 할 수 없다.)
+
+이벤트를 받는건 DOM(여기선 button 태그)이다. 
+
+
+
+**해결방법** : 컴포넌트 안에서 DOM element의 이벤트를 할당하는 것. <u>속성값으로 이벤트 핸들러를 설정해줘야 한다.</u>
+
+ ![2018-09-25 4 48 51](https://user-images.githubusercontent.com/39458555/46000207-e8762980-c0e2-11e8-9d9d-b7bb2f1c6d6e.png)
+
+![2018-09-25 4 52 55](https://user-images.githubusercontent.com/39458555/46000424-794d0500-c0e3-11e8-9d48-241327b23bd2.png)
+
+이런식으로.
+
+
+
+---
+
+ 
