@@ -10,6 +10,7 @@
   * React는 가상 DOM을 이용해 DOM을 읽지 않고 갱신할 수 있는 강력한 렌더링 시스템을 가지고 있음.
 * React는 **<u>UI library</u>**이고, **ReactDOM**은 <u>React를 웹사이트에 출력(render)하는 걸 도와주는 모델</u>이다. 
   - **ReactNative**는 모바일앱.
+* React는 크게 네 가지만 기억하면 된다. **JSX / props / state / Life cycle**
 
 ---
 
@@ -30,22 +31,41 @@
 * React 작업환경 설정
 
   *  Node.js / NPM 설치해야 함.
-  * babel, webpack, webpack-dev-server 설치해야 함.
-    * (npm install -g babel webpack webpack-dev-server )
-  * Nodes.js 프로젝트를 생성 (npm init) (원하는 폴더로 이동해서 할 것.)
+  *  babel, webpack, webpack-dev-server 설치해야 함.
+    * (npm install -g babel webpack webpack-dev-server ) // (난 이미 글로벌에 설치했음)
+  *  Nodes.js 프로젝트를 생성 (npm init) (원하는 폴더로 이동해서 할 것.)
     * npm init은 현재 위치에 package.json 파일을 생성한다. (json파일 안에 패키지 관리를 하기 위한 내용들이 모두 들어있음.)
       * 보통 package.json 파일을 설치한 뒤, 의존 패키지들을 설치한다. 
         (의존 패키지란, 패키지 파일을 이용하기 위해 필요한 기능을 가진 하위 패키지를 일컬음.)
-  * 의존 패키지 및 플러그인 설치
+  *  의존 패키지 및 플러그인 설치
     * npm install --save react react-dom
     * npm install -- save-dev babel-core babel-loader babel-preset-react babel-preset-es2015 webpack webpack-dev-server
       ( + react-hot-loader)
+
+  (webpack의 경우, 글로벌로 설치를 했어도, 폴더 안의 의존패키지들이 의존하고 있기 때문에 로컬로도 함께 설치를 해줘야 한다. )
 
   (--save 는, 의존 패키지의 정보를 자동으로 package.json 파일에 적용하겠다는 것임. )
 
   (babel은 JSX문법을 javascript로 변환해서, 브라우저가 알아듣게 하는 역할을 함.)
 
 ---
+
+## WebPack?
+
+* webpack : 브라우저 위에서 import(require)를 할 수 있게 해줌. 자바스크립트 파일들을 하나로 합쳐줌.
+* webpack-dev-server : 별도의 서버를 구축하지 않고도 static 파일을 다루는 웹서버를 열 수 있으며 hot-loader를 통해 코드가 수정될 때마다 자동으로 리로드 되게 할 수 있음.
+* $ npm install -g webpack webpack-dev-server 로 설치
+
+
+
+* **package.json 파일에서 "script" 부분에 "dev-server": "webpack-dev-server" 를 넣어줌.**
+  * **그런뒤, root 폴더에서 npm dev-server를 실행하면, 작업중인 파일을 다루는 <u>웹서버</u>를 열어줌. (로컬호스트에... 127.0.0.1 or localhost)** 
+
+
+
+---
+
+
 
 ### JSX를 공부해보자.
 
